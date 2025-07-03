@@ -1,0 +1,62 @@
+###################### Ruff ######################
+[tool.ruff]
+preview = true
+target-version = "py311"
+
+[tool.ruff.format]
+skip-magic-trailing-comma = true
+
+[tool.ruff.lint]
+dummy-variable-rgx = "^_$"
+ignore = [
+    "CPY001",  # flake8-copyright
+    "D1",      # undocumented-*
+    "D203",    # one-blank-line-before-class
+    "D213",    # multi-line-summary-second-line
+    "E501",    # line-too-long
+    "BLE001",  # catch-blind-exceptions
+    "COM812",  # missing-trailing-commas
+    "PLR0917", # too-many-positional-arguments
+]
+select = ["ALL"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*" = ["T201", "ANN2", "ERA001", "INP001", "S106", "ARG005"]
+"tests/*" = ["S101", "SLF0", "PLC0415"]
+
+############################# POETRY ##########################
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
+prompt = "masking"
+
+[tool.poetry]
+name = "masking"
+version = "0.1.0"
+description = "Python package for the masking of Personal Identifiable Information (PII) data consisting of a table."
+authors = ["Marco Petrella <marco.petrella@d-one.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+presidio-analyzer = "^2.2.356"
+pyspark = "^3.5.1"
+pyarrow = "^17.0.0"
+faker = "^26.0.0"
+spacy = "^3.8.0"
+dateparser = "^1.2.0"
+presidio-anonymizer = "^2.2.356"
+openpyxl = "^3.1.5"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+pre-commit = "^3.7.1"
+en_core_web_trf = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl"}
+de_core_news_lg = {url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.8.0/de_core_news_lg-3.8.0-py3-none-any.whl"}
+pytest = "^8.3.5"
+argparse = "^1.4.0"

@@ -1,0 +1,3283 @@
+clear_values,masked_values
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Darius"",
+            ""geburtsdatum"": ""1979-04-24"",
+            ""surname"": ""Müller""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Alexa Felber""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1979-04-24"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"[{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Luís"",
+            ""geburtsdatum"": ""2021-08-05"",
+            ""surname"": ""Wüest""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Hatice Schnyder""
+    }
+}]","[{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2021-08-05"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}]"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Ayan"",
+            ""geburtsdatum"": ""1976-03-09"",
+            ""surname"": ""Spiess""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Omar Geiger""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1976-03-09"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nicolas"",
+            ""geburtsdatum"": ""1975-07-14"",
+            ""surname"": ""Caviezel""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Marcelle Müller""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1975-07-14"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Mert"",
+            ""geburtsdatum"": ""1934-02-24"",
+            ""surname"": ""Wälti""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Edon Steiner""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1934-02-24"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Olivia"",
+            ""geburtsdatum"": ""1938-08-30"",
+            ""surname"": ""Hediger""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Gerardo Lehmann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1938-08-30"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Liva"",
+            ""geburtsdatum"": ""2007-02-05"",
+            ""surname"": ""Peric""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Süleyman Gloor""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2007-02-05"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Alessia"",
+            ""geburtsdatum"": ""2005-03-10"",
+            ""surname"": ""Herzog""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Ismet Zürcher""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2005-03-10"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Varvara"",
+            ""geburtsdatum"": ""1971-08-17"",
+            ""surname"": ""Steinemann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Enea Stocker""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1971-08-17"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Raoul"",
+            ""geburtsdatum"": ""1991-09-19"",
+            ""surname"": ""Früh""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Volker Wagner""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1991-09-19"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Carlota"",
+            ""geburtsdatum"": ""1934-11-01"",
+            ""surname"": ""Bertschinger""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Moreno Bosshard""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1934-11-01"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Mihaela"",
+            ""geburtsdatum"": ""2020-07-13"",
+            ""surname"": ""Herrmann""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Raphael Stutz""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2020-07-13"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Gabriel"",
+            ""geburtsdatum"": ""1999-07-20"",
+            ""surname"": ""Pfenninger""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Emin Sidler""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1999-07-20"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Agata"",
+            ""geburtsdatum"": ""2023-05-10"",
+            ""surname"": ""Mühlemann""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Teresa Bättig""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2023-05-10"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Fathima"",
+            ""geburtsdatum"": ""1981-11-15"",
+            ""surname"": ""Ruch""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Julien Probst""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1981-11-15"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nunzio"",
+            ""geburtsdatum"": ""1933-01-26"",
+            ""surname"": ""Tanner""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Jona Wagner""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1933-01-26"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Yves"",
+            ""geburtsdatum"": ""1976-08-08"",
+            ""surname"": ""Friedli""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Ewa Baur""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1976-08-08"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Volkan"",
+            ""geburtsdatum"": ""1998-01-16"",
+            ""surname"": ""Caduff""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Filip Betschart""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1998-01-16"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Younes"",
+            ""geburtsdatum"": ""2001-05-20"",
+            ""surname"": ""Sprenger""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Mila Meier""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2001-05-20"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Robin"",
+            ""geburtsdatum"": ""1978-06-30"",
+            ""surname"": ""Heller""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Anne-Lise Lutz""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1978-06-30"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Anne-Lise Lutz""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Valbona"",
+            ""geburtsdatum"": ""2009-09-16"",
+            ""surname"": ""Zeller""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Damir Lüthi""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2009-09-16"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Petra"",
+            ""geburtsdatum"": ""1985-05-20"",
+            ""surname"": ""Welti""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Said Hartmann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1985-05-20"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Joaquín"",
+            ""geburtsdatum"": ""1996-08-16"",
+            ""surname"": ""Allemann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Christina Gloor""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1996-08-16"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Kaspar"",
+            ""geburtsdatum"": ""2018-02-27"",
+            ""surname"": ""Salzmann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Alen Stadelmann""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2018-02-27"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Orlando"",
+            ""geburtsdatum"": ""1979-12-29"",
+            ""surname"": ""Gubser""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Colin Bolliger""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1979-12-29"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nikhil"",
+            ""geburtsdatum"": ""1946-03-08"",
+            ""surname"": ""Wettstein""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Leonor Mettler""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1946-03-08"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Catherine"",
+            ""geburtsdatum"": ""1978-06-22"",
+            ""surname"": ""Strub""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Eliza Bieri""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1978-06-22"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Dragica"",
+            ""geburtsdatum"": ""1944-04-28"",
+            ""surname"": ""Fritschi""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Abdul Hofstetter""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1944-04-28"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nicolas"",
+            ""geburtsdatum"": ""2009-11-11"",
+            ""surname"": ""Steiner""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Annina Haas""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2009-11-11"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Grégoire"",
+            ""geburtsdatum"": ""1974-07-25"",
+            ""surname"": ""Lange""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Emina Rey""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1974-07-25"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Clemens"",
+            ""geburtsdatum"": ""1981-01-23"",
+            ""surname"": ""Käser""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Tatjana Lüscher""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1981-01-23"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Anastasija"",
+            ""geburtsdatum"": ""2013-06-27"",
+            ""surname"": ""Caviezel""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Sasa Maurer""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2013-06-27"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Xin"",
+            ""geburtsdatum"": ""1940-03-18"",
+            ""surname"": ""Linder""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Fritz Merz""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1940-03-18"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Siegfried"",
+            ""geburtsdatum"": ""1994-08-02"",
+            ""surname"": ""Koller""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Vanessa Stocker""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1994-08-02"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Fabienne"",
+            ""geburtsdatum"": ""1931-10-24"",
+            ""surname"": ""Helbling""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Rosina Kägi""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1931-10-24"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Darren"",
+            ""geburtsdatum"": ""1939-12-14"",
+            ""surname"": ""Chen""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Noe Schoch""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1939-12-14"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Juan"",
+            ""geburtsdatum"": ""1978-12-13"",
+            ""surname"": ""Lötscher""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Janos Bühler""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1978-12-13"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Kirstin"",
+            ""geburtsdatum"": ""2013-04-12"",
+            ""surname"": ""Lutz""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Patrizia Bianchi""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2013-04-12"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Benedikt"",
+            ""geburtsdatum"": ""1960-06-20"",
+            ""surname"": ""Schönenberger""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Walter Egli""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1960-06-20"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Josef"",
+            ""geburtsdatum"": ""1998-03-10"",
+            ""surname"": ""Wernli""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Flamur Staub""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1998-03-10"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Catalina"",
+            ""geburtsdatum"": ""2023-01-14"",
+            ""surname"": ""Manser""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Heinz Jenni""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2023-01-14"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Luigina"",
+            ""geburtsdatum"": ""1945-06-02"",
+            ""surname"": ""Grieder""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Roberta Iten""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1945-06-02"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Kiana"",
+            ""geburtsdatum"": ""1972-06-08"",
+            ""surname"": ""Brand""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Fred Imhof""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1972-06-08"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Akram"",
+            ""geburtsdatum"": ""1965-11-04"",
+            ""surname"": ""Stiefel""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Margot Ziegler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1965-11-04"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Lara"",
+            ""geburtsdatum"": ""1987-01-12"",
+            ""surname"": ""Zhou""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Zoé Siegrist""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1987-01-12"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Otto"",
+            ""geburtsdatum"": ""2023-05-06"",
+            ""surname"": ""Stevanovic""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Fitim Benz""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2023-05-06"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Mario"",
+            ""geburtsdatum"": ""1995-11-22"",
+            ""surname"": ""Mohammed""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Friedrich Wettstein""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1995-11-22"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Oriana"",
+            ""geburtsdatum"": ""1968-11-02"",
+            ""surname"": ""Pfister""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Laurence Ziegler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1968-11-02"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Azra"",
+            ""geburtsdatum"": ""1992-05-11"",
+            ""surname"": ""Bickel""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Lukasz Gerber""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1992-05-11"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Joao"",
+            ""geburtsdatum"": ""1968-03-18"",
+            ""surname"": ""Rüfenacht""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Rebecca Lüthi""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1968-03-18"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Oleg"",
+            ""geburtsdatum"": ""1996-09-15"",
+            ""surname"": ""Weilenmann""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Rina Koch""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1996-09-15"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Rosana"",
+            ""geburtsdatum"": ""1940-11-18"",
+            ""surname"": ""Bösch""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Sergio Hürlimann""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1940-11-18"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Philip"",
+            ""geburtsdatum"": ""1934-05-20"",
+            ""surname"": ""Vogt""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Suzanne Ritter""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1934-05-20"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Lillian"",
+            ""geburtsdatum"": ""1964-05-18"",
+            ""surname"": ""Achermann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Raquel Schaller""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1964-05-18"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Franziska"",
+            ""geburtsdatum"": ""1973-07-29"",
+            ""surname"": ""Gabriel""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Nicholas Rüegg""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1973-07-29"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Adem"",
+            ""geburtsdatum"": ""1953-11-28"",
+            ""surname"": ""Berisha""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Ljubisa Zollinger""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1953-11-28"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Ljubisa Zollinger""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Sinisa"",
+            ""geburtsdatum"": ""2009-05-22"",
+            ""surname"": ""Peter""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Elisabeth Knecht""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2009-05-22"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Isabella"",
+            ""geburtsdatum"": ""1958-05-12"",
+            ""surname"": ""Züger""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Istvan Egger""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1958-05-12"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Fabrice"",
+            ""geburtsdatum"": ""1950-01-19"",
+            ""surname"": ""Gubler""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Ana Favre""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1950-01-19"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jara"",
+            ""geburtsdatum"": ""1940-11-04"",
+            ""surname"": ""Gschwend""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Angelika Sidler""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1940-11-04"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Karolina"",
+            ""geburtsdatum"": ""1946-10-12"",
+            ""surname"": ""Khan""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Nick Herzog""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1946-10-12"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Alexandre"",
+            ""geburtsdatum"": ""2002-04-04"",
+            ""surname"": ""Friedrich""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Enis Meier""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2002-04-04"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Elisabeth"",
+            ""geburtsdatum"": ""1983-11-28"",
+            ""surname"": ""Stutz""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Orlando Bachmann""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1983-11-28"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Andrew"",
+            ""geburtsdatum"": ""2009-06-08"",
+            ""surname"": ""Adam""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Sheila Roos""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2009-06-08"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jayden"",
+            ""geburtsdatum"": ""1964-03-09"",
+            ""surname"": ""Brühlmann""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Camille Baur""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1964-03-09"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Hana"",
+            ""geburtsdatum"": ""1977-11-30"",
+            ""surname"": ""Schaffner""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Rene Hirt""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1977-11-30"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Franca"",
+            ""geburtsdatum"": ""2016-04-03"",
+            ""surname"": ""Krebs""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Pierina Eichenberger""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2016-04-03"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Flavia"",
+            ""geburtsdatum"": ""1965-05-28"",
+            ""surname"": ""Hanselmann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Michel Siegrist""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1965-05-28"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Christian"",
+            ""geburtsdatum"": ""1978-01-12"",
+            ""surname"": ""Wolf""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Katherine Schärer""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1978-01-12"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Kay"",
+            ""geburtsdatum"": ""2004-07-10"",
+            ""surname"": ""Hammer""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Jörg Lanz""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2004-07-10"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Axel"",
+            ""geburtsdatum"": ""1998-07-02"",
+            ""surname"": ""Hofstetter""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Annie Bühler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1998-07-02"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Till"",
+            ""geburtsdatum"": ""1946-04-03"",
+            ""surname"": ""Reimann""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Alissa Fehr""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1946-04-03"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Edouard"",
+            ""geburtsdatum"": ""1993-09-28"",
+            ""surname"": ""Rieser""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Giancarlo Hofmann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1993-09-28"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Victoria"",
+            ""geburtsdatum"": ""1995-10-06"",
+            ""surname"": ""Frischknecht""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Eleonore Probst""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1995-10-06"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Gaetano"",
+            ""geburtsdatum"": ""1987-08-02"",
+            ""surname"": ""Fischer""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Emilia Frei""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1987-08-02"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Seraina"",
+            ""geburtsdatum"": ""2012-06-30"",
+            ""surname"": ""Bertschinger""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Gabor Schweizer""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2012-06-30"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED> Schweizer""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Josephine"",
+            ""geburtsdatum"": ""1979-06-14"",
+            ""surname"": ""Weiss""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Andri Bär""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1979-06-14"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Orlando"",
+            ""geburtsdatum"": ""1970-05-13"",
+            ""surname"": ""Ernst""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Jeanine Albrecht""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1970-05-13"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nikolaos"",
+            ""geburtsdatum"": ""1955-08-12"",
+            ""surname"": ""Schaad""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Matthew Steffen""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1955-08-12"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Julianna"",
+            ""geburtsdatum"": ""1931-10-28"",
+            ""surname"": ""Muhammad""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Artan Tobler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1931-10-28"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Cosmo"",
+            ""geburtsdatum"": ""1951-03-24"",
+            ""surname"": ""Berger""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Hermine Burri""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1951-03-24"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jeanne"",
+            ""geburtsdatum"": ""1998-08-13"",
+            ""surname"": ""Brand""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Carl Lustenberger""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1998-08-13"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Helena"",
+            ""geburtsdatum"": ""1968-11-04"",
+            ""surname"": ""Stäheli""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Maik Brunner""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1968-11-04"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Yu"",
+            ""geburtsdatum"": ""2023-07-29"",
+            ""surname"": ""Aschwanden""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Herbert Lutz""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2023-07-29"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jürg"",
+            ""geburtsdatum"": ""1968-03-03"",
+            ""surname"": ""Schubert""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Rosemarie Leu""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1968-03-03"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Elda"",
+            ""geburtsdatum"": ""1999-10-15"",
+            ""surname"": ""Ahmeti""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Bettina Frei""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1999-10-15"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Bettina Frei""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Mirza"",
+            ""geburtsdatum"": ""2007-06-30"",
+            ""surname"": ""Schmidlin""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Nikolaus Kunz""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2007-06-30"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Malena"",
+            ""geburtsdatum"": ""1939-06-18"",
+            ""surname"": ""Zahner""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Julien Ott""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1939-06-18"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Manuela"",
+            ""geburtsdatum"": ""1975-07-07"",
+            ""surname"": ""Zweifel""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Rui Amrein""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1975-07-07"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Suzan"",
+            ""geburtsdatum"": ""1949-08-12"",
+            ""surname"": ""Schenker""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Hans-Rudolf Hug""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1949-08-12"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Beat"",
+            ""geburtsdatum"": ""1953-11-05"",
+            ""surname"": ""Hostettler""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Ginette Ziegler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1953-11-05"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Daria"",
+            ""geburtsdatum"": ""1988-01-09"",
+            ""surname"": ""Krüger""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Nikolaus Hürlimann""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1988-01-09"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Fatima"",
+            ""geburtsdatum"": ""1940-08-26"",
+            ""surname"": ""Menzi""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Karen Schenk""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1940-08-26"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Lauren"",
+            ""geburtsdatum"": ""1991-01-24"",
+            ""surname"": ""Fässler""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Noëlle Ammann""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1991-01-24"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Anik"",
+            ""geburtsdatum"": ""1979-12-01"",
+            ""surname"": ""Ilic""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. René Zingg""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1979-12-01"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Adriana"",
+            ""geburtsdatum"": ""1950-04-29"",
+            ""surname"": ""Kovacevic""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Ariana Thommen""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1950-04-29"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Marcus"",
+            ""geburtsdatum"": ""1948-05-21"",
+            ""surname"": ""Becker""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Rina Walter""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1948-05-21"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Serena"",
+            ""geburtsdatum"": ""1994-01-11"",
+            ""surname"": ""Rüedi""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Jann Bättig""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1994-01-11"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Isabella"",
+            ""geburtsdatum"": ""1968-06-12"",
+            ""surname"": ""Fritz""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Damian Meili""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1968-06-12"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Melina"",
+            ""geburtsdatum"": ""1970-01-25"",
+            ""surname"": ""Gabriel""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Grazia Leu""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1970-01-25"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Sara"",
+            ""geburtsdatum"": ""2022-12-01"",
+            ""surname"": ""Gabriel""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Jenny Zingg""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2022-12-01"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Lea"",
+            ""geburtsdatum"": ""2003-01-09"",
+            ""surname"": ""Ferrari""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Laurent Bühler""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2003-01-09"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nicole"",
+            ""geburtsdatum"": ""1996-10-14"",
+            ""surname"": ""Wirz""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Roland Zehnder""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1996-10-14"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Vincenzo"",
+            ""geburtsdatum"": ""2009-07-23"",
+            ""surname"": ""Lorenz""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Harun Favre""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2009-07-23"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Antonino"",
+            ""geburtsdatum"": ""1984-02-16"",
+            ""surname"": ""Etter""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Mathilde Gross""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1984-02-16"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Michelle"",
+            ""geburtsdatum"": ""1991-02-10"",
+            ""surname"": ""Heer""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Marta Blum""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1991-02-10"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Lilli"",
+            ""geburtsdatum"": ""1934-08-21"",
+            ""surname"": ""Schneider""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Antonina Schlatter""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1934-08-21"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Lina"",
+            ""geburtsdatum"": ""1972-03-08"",
+            ""surname"": ""Fröhlich""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Leandro Schenk""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1972-03-08"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Biagio"",
+            ""geburtsdatum"": ""2014-08-28"",
+            ""surname"": ""Herrmann""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Sandra Stauffer""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2014-08-28"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Naima"",
+            ""geburtsdatum"": ""1964-07-22"",
+            ""surname"": ""von Allmen""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Jules Scheidegger""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1964-07-22"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Beda"",
+            ""geburtsdatum"": ""1969-08-11"",
+            ""surname"": ""Leemann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Amy Bianchi""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1969-08-11"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Véronique"",
+            ""geburtsdatum"": ""1989-11-19"",
+            ""surname"": ""Zimmermann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Nelli Bolliger""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1989-11-19"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Julia"",
+            ""geburtsdatum"": ""1940-12-08"",
+            ""surname"": ""Mathys""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Driton Wirth""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1940-12-08"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Yara"",
+            ""geburtsdatum"": ""1976-12-27"",
+            ""surname"": ""Isufi""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Ludwig Lüscher""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1976-12-27"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Louis"",
+            ""geburtsdatum"": ""1987-06-28"",
+            ""surname"": ""Wittwer""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Ilija Gfeller""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1987-06-28"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Lina"",
+            ""geburtsdatum"": ""1941-06-03"",
+            ""surname"": ""Herzog""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Fredy Ziegler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1941-06-03"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Snezana"",
+            ""geburtsdatum"": ""1942-03-30"",
+            ""surname"": ""Vasic""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Lio Eugster""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1942-03-30"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Bob"",
+            ""geburtsdatum"": ""1969-02-28"",
+            ""surname"": ""Wälti""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Filipa Spörri""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1969-02-28"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Aurelio"",
+            ""geburtsdatum"": ""2005-01-15"",
+            ""surname"": ""Reinhard""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Anaïs Gerber""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2005-01-15"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Hanna"",
+            ""geburtsdatum"": ""1992-12-13"",
+            ""surname"": ""Ingold""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""James Tanner""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1992-12-13"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Marc"",
+            ""geburtsdatum"": ""1975-05-10"",
+            ""surname"": ""Flückiger""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Marcelo Spörri""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1975-05-10"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jean-Marie"",
+            ""geburtsdatum"": ""1943-11-18"",
+            ""surname"": ""Scherrer""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Ottilia Christen""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1943-11-18"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nadejda"",
+            ""geburtsdatum"": ""1956-02-13"",
+            ""surname"": ""Heeb""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Selin Felder""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1956-02-13"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jesper"",
+            ""geburtsdatum"": ""1953-02-21"",
+            ""surname"": ""Yu""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. John Kuhn""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1953-02-21"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Abraham"",
+            ""geburtsdatum"": ""2010-11-25"",
+            ""surname"": ""Hofer""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Eduard Stauffer""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2010-11-25"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nina"",
+            ""geburtsdatum"": ""1960-08-04"",
+            ""surname"": ""Hager""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Enea Portmann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1960-08-04"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Gonçalo"",
+            ""geburtsdatum"": ""1981-12-19"",
+            ""surname"": ""Weiss""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Milica Häfliger""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1981-12-19"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Margrit"",
+            ""geburtsdatum"": ""1950-04-16"",
+            ""surname"": ""Becker""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Yael Schmid""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1950-04-16"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Annemarie"",
+            ""geburtsdatum"": ""2013-05-29"",
+            ""surname"": ""Heller""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Josefine Stettler""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2013-05-29"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Chaim"",
+            ""geburtsdatum"": ""2022-09-25"",
+            ""surname"": ""Bickel""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Sean Fuchs""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2022-09-25"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Nemanja"",
+            ""geburtsdatum"": ""2013-07-30"",
+            ""surname"": ""Brütsch""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Robin Küng""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2013-07-30"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Stojan"",
+            ""geburtsdatum"": ""1984-02-19"",
+            ""surname"": ""Rodriguez""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Levin Michel""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1984-02-19"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Sladana"",
+            ""geburtsdatum"": ""1997-09-05"",
+            ""surname"": ""Hermann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Evan Thommen""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1997-09-05"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Freya"",
+            ""geburtsdatum"": ""2015-03-09"",
+            ""surname"": ""Zwahlen""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Anne-Laure Meier""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2015-03-09"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Juri"",
+            ""geburtsdatum"": ""1999-07-09"",
+            ""surname"": ""Stutz""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Yanik Thommen""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1999-07-09"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Natacha"",
+            ""geburtsdatum"": ""1942-10-13"",
+            ""surname"": ""Steiger""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Deborah Ammann""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1942-10-13"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Muhammad"",
+            ""geburtsdatum"": ""1954-08-01"",
+            ""surname"": ""Erni""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Eugenio Bachmann""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1954-08-01"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Rodolfo"",
+            ""geburtsdatum"": ""1961-02-08"",
+            ""surname"": ""Troxler""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Jordan Stutz""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1961-02-08"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Sérgio"",
+            ""geburtsdatum"": ""1942-11-29"",
+            ""surname"": ""Huser""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Luc Zürcher""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1942-11-29"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Danijel"",
+            ""geburtsdatum"": ""1954-05-16"",
+            ""surname"": ""Blumer""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Ornella Merz""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1954-05-16"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Naomi"",
+            ""geburtsdatum"": ""2021-05-20"",
+            ""surname"": ""Vollenweider""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Lidia Bühlmann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2021-05-20"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Emma"",
+            ""geburtsdatum"": ""2023-05-31"",
+            ""surname"": ""Held""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Meryem Iten""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2023-05-31"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Ronald"",
+            ""geburtsdatum"": ""1965-07-29"",
+            ""surname"": ""Ali""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Tarik Lüscher""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1965-07-29"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Furkan"",
+            ""geburtsdatum"": ""1938-11-08"",
+            ""surname"": ""Hardegger""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Ardit Aebi""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1938-11-08"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED> Aebi""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Séverine"",
+            ""geburtsdatum"": ""1937-08-08"",
+            ""surname"": ""Fries""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Karim Bauer""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1937-08-08"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Sean"",
+            ""geburtsdatum"": ""1988-11-11"",
+            ""surname"": ""Büchler""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Reto Müller""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1988-11-11"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jann"",
+            ""geburtsdatum"": ""1933-05-18"",
+            ""surname"": ""Ivanovic""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Enrique Weber""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1933-05-18"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Youri"",
+            ""geburtsdatum"": ""1970-02-20"",
+            ""surname"": ""Spörri""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Lara Hirt""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1970-02-20"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Janick"",
+            ""geburtsdatum"": ""1991-05-09"",
+            ""surname"": ""Ferrari""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Martina Scherrer""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1991-05-09"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Silvia"",
+            ""geburtsdatum"": ""1959-07-01"",
+            ""surname"": ""Schulthess""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Anes Berger""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1959-07-01"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Laura"",
+            ""geburtsdatum"": ""1964-12-28"",
+            ""surname"": ""Lüthy""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Reto Ziegler""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1964-12-28"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Reiner"",
+            ""geburtsdatum"": ""2016-12-29"",
+            ""surname"": ""Brun""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Therese Leu""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2016-12-29"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Gonçalo"",
+            ""geburtsdatum"": ""1939-10-18"",
+            ""surname"": ""Schenk""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Meinrad Hürlimann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1939-10-18"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Eugenio"",
+            ""geburtsdatum"": ""1988-08-03"",
+            ""surname"": ""Walser""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Elin Felber""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1988-08-03"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Dominik"",
+            ""geburtsdatum"": ""1999-09-19"",
+            ""surname"": ""Özdemir""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Udo Eichenberger""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1999-09-19"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Miguel"",
+            ""geburtsdatum"": ""1996-11-29"",
+            ""surname"": ""Heller""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Franz Peter""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1996-11-29"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Liubov"",
+            ""geburtsdatum"": ""1965-03-20"",
+            ""surname"": ""Lee""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Hava Blum""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1965-03-20"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Mohammad"",
+            ""geburtsdatum"": ""1941-06-02"",
+            ""surname"": ""Levy""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Laszlo Bättig""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1941-06-02"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Vera"",
+            ""geburtsdatum"": ""1936-04-29"",
+            ""surname"": ""Stäheli""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Helga Marti""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1936-04-29"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Gustavo"",
+            ""geburtsdatum"": ""1952-03-06"",
+            ""surname"": ""Gassmann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Silvano Schmidt""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1952-03-06"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Zdenek"",
+            ""geburtsdatum"": ""1981-11-03"",
+            ""surname"": ""Mohammad""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Oswald Wirz""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1981-11-03"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Ivo"",
+            ""geburtsdatum"": ""2023-05-31"",
+            ""surname"": ""Iten""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Bilal Bieri""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2023-05-31"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Livia"",
+            ""geburtsdatum"": ""1983-01-12"",
+            ""surname"": ""Suter""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Filip Bättig""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1983-01-12"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Bayram"",
+            ""geburtsdatum"": ""2021-11-23"",
+            ""surname"": ""Keller""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Frédérique Schmid""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2021-11-23"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Mateusz"",
+            ""geburtsdatum"": ""1970-01-17"",
+            ""surname"": ""Fankhauser""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Melissa Lehmann""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1970-01-17"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Ida"",
+            ""geburtsdatum"": ""1972-08-05"",
+            ""surname"": ""Rexhepi""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Lionel Müller""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1972-08-05"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Janet"",
+            ""geburtsdatum"": ""1987-05-02"",
+            ""surname"": ""Mohammad""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Theo Ziegler""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1987-05-02"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Julien"",
+            ""geburtsdatum"": ""1937-11-24"",
+            ""surname"": ""Kümin""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Noëmi Sigrist""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1937-11-24"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""João"",
+            ""geburtsdatum"": ""1958-12-16"",
+            ""surname"": ""Bertschi""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Gani Blum""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1958-12-16"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Constantin"",
+            ""geburtsdatum"": ""2017-04-13"",
+            ""surname"": ""Angst""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Amela Bucher""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2017-04-13"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Géza"",
+            ""geburtsdatum"": ""1951-03-21"",
+            ""surname"": ""Maliqi""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Karina Graf""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1951-03-21"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Ladina"",
+            ""geburtsdatum"": ""1946-08-03"",
+            ""surname"": ""Züger""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Theresia Tanner""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1946-08-03"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Coralie"",
+            ""geburtsdatum"": ""1993-11-17"",
+            ""surname"": ""Pfenninger""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Emine Weber""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1993-11-17"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Gaetano"",
+            ""geburtsdatum"": ""1931-01-03"",
+            ""surname"": ""Ramseier""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Ralph Flückiger""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1931-01-03"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Kaltrina"",
+            ""geburtsdatum"": ""2001-06-24"",
+            ""surname"": ""Hediger""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Gudrun Häfliger""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2001-06-24"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Abdullah"",
+            ""geburtsdatum"": ""1947-05-02"",
+            ""surname"": ""Hofer""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Matej Frick""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1947-05-02"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Zorka"",
+            ""geburtsdatum"": ""1984-05-18"",
+            ""surname"": ""von Allmen""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Gerhard Bühlmann""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1984-05-18"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Rosa"",
+            ""geburtsdatum"": ""2012-06-12"",
+            ""surname"": ""Seifert""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Sibylle Kuhn""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2012-06-12"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Dirk"",
+            ""geburtsdatum"": ""1982-01-14"",
+            ""surname"": ""Räber""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Annamaria Bühlmann""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1982-01-14"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Luís"",
+            ""geburtsdatum"": ""1975-12-12"",
+            ""surname"": ""Menzi""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Bajram Lüscher""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1975-12-12"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Valentin"",
+            ""geburtsdatum"": ""1953-07-22"",
+            ""surname"": ""Lüscher""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Luciano Schärer""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1953-07-22"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Conrad"",
+            ""geburtsdatum"": ""1959-12-23"",
+            ""surname"": ""Ingold""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Francesco Hofmann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1959-12-23"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Günther"",
+            ""geburtsdatum"": ""1953-02-16"",
+            ""surname"": ""Moser""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Christophe Bauer""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1953-02-16"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Clémence"",
+            ""geburtsdatum"": ""1977-06-17"",
+            ""surname"": ""Peters""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Fadil Jost""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1977-06-17"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED> Jost""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Orhan"",
+            ""geburtsdatum"": ""1942-07-03"",
+            ""surname"": ""Pauli""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Ardita Weber""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1942-07-03"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Martino"",
+            ""geburtsdatum"": ""1974-07-02"",
+            ""surname"": ""Kummer""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Marek Häfliger""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1974-07-02"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Dominik"",
+            ""geburtsdatum"": ""1973-09-12"",
+            ""surname"": ""Urech""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Hermann Kohler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1973-09-12"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Rodrigo"",
+            ""geburtsdatum"": ""1970-10-29"",
+            ""surname"": ""Spörri""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Dora Stalder""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1970-10-29"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Julija"",
+            ""geburtsdatum"": ""1935-02-25"",
+            ""surname"": ""Benz""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Ganimete Meyer""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1935-02-25"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Iris"",
+            ""geburtsdatum"": ""2009-04-04"",
+            ""surname"": ""Fink""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Agatha Grob""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2009-04-04"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Andrea"",
+            ""geburtsdatum"": ""2022-07-06"",
+            ""surname"": ""Rieser""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Audrey Wüthrich""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2022-07-06"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Eduard"",
+            ""geburtsdatum"": ""1939-05-26"",
+            ""surname"": ""Yildiz""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Carl Fuchs""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1939-05-26"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Milorad"",
+            ""geburtsdatum"": ""2001-06-13"",
+            ""surname"": ""Wirz""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Rui Bernasconi""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2001-06-13"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Xuan"",
+            ""geburtsdatum"": ""2007-05-25"",
+            ""surname"": ""Gerber""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Sinisa Fischer""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2007-05-25"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Arthur"",
+            ""geburtsdatum"": ""1964-08-25"",
+            ""surname"": ""Meili""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Colin Steffen""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1964-08-25"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Sally"",
+            ""geburtsdatum"": ""1976-07-03"",
+            ""surname"": ""Fries""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Dr. med. Dean Ernst""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1976-07-03"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Naemi"",
+            ""geburtsdatum"": ""1941-07-30"",
+            ""surname"": ""Alija""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Besim Hürlimann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1941-07-30"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Rachel"",
+            ""geburtsdatum"": ""1951-04-14"",
+            ""surname"": ""Nievergelt""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Fabian Mäder""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1951-04-14"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Andrej"",
+            ""geburtsdatum"": ""1957-04-27"",
+            ""surname"": ""Graf""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Andrej Mäder""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1957-04-27"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED> <MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Dusanka"",
+            ""geburtsdatum"": ""1934-03-21"",
+            ""surname"": ""Schaller""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Alberto Schnyder""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1934-03-21"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Aurèle"",
+            ""geburtsdatum"": ""1961-07-15"",
+            ""surname"": ""Ahmadi""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Susan Hotz""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1961-07-15"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Vesna"",
+            ""geburtsdatum"": ""1986-04-01"",
+            ""surname"": ""Grimm""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Arta Steinmann""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1986-04-01"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Benjamin"",
+            ""geburtsdatum"": ""1991-08-16"",
+            ""surname"": ""Baumann""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Curdin Bosshard""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1991-08-16"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Marine"",
+            ""geburtsdatum"": ""1994-10-30"",
+            ""surname"": ""Eberhard""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Gladys Frey""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1994-10-30"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Tomas"",
+            ""geburtsdatum"": ""1964-03-04"",
+            ""surname"": ""Paul""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Gina Kälin""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1964-03-04"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 3"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Sadije"",
+            ""geburtsdatum"": ""2011-12-10"",
+            ""surname"": ""Matter""
+        },
+        ""prozedere"": ""Prozedere noch nicht bekannt"",
+        ""arzt"": ""Dr. med. Kristijan Meister""
+    }
+}","{""title"": ""Bericht 3"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""2011-12-10"", ""surname"": ""<MASKED>""}, ""prozedere"": ""Prozedere noch nicht bekannt"", ""arzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 1"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Iuliia"",
+            ""geburtsdatum"": ""1947-07-23"",
+            ""surname"": ""Bänziger""
+        },
+        ""diagnosis"": ""Diagnose noch nicht bekannt"",
+        ""Hausarzt"": ""Dr. med. Fabio Keller""
+    }
+}","{""title"": ""Bericht 1"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1947-07-23"", ""surname"": ""<MASKED>""}, ""diagnosis"": ""Diagnose noch nicht bekannt"", ""Hausarzt"": ""Dr. med. <MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Jean"",
+            ""geburtsdatum"": ""1955-06-07"",
+            ""surname"": ""Filipovic""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Odette Vogel""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1955-06-07"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
+"{
+    ""title"": ""Bericht 2"",
+    ""content"": {
+        ""patient"": {
+            ""name"": ""Yasar"",
+            ""geburtsdatum"": ""1985-08-30"",
+            ""surname"": ""Bajrami""
+        },
+        ""laboratory"": {
+            ""blood_test"": {
+                ""cholesterol"": ""ok"",
+                ""glucose"": ""ok""
+            },
+            ""urine_test"": {
+                ""protein"": ""ok"",
+                ""glucose"": ""not ok""
+            }
+        },
+        ""employee"": ""Ronald Schuler""
+    }
+}","{""title"": ""Bericht 2"", ""content"": {""patient"": {""name"": ""<MASKED>"", ""geburtsdatum"": ""1985-08-30"", ""surname"": ""<MASKED>""}, ""laboratory"": {""blood_test"": {""cholesterol"": ""ok"", ""glucose"": ""ok""}, ""urine_test"": {""protein"": ""ok"", ""glucose"": ""not ok""}}, ""employee"": ""<MASKED>""}}"
