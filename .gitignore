@@ -1,0 +1,6 @@
+
+# Ignore all files in the build directory
+./data/build
+
+# Ignore all the __pycache__ directories
+**/__pycache__/
