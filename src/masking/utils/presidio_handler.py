@@ -59,10 +59,10 @@ class PresidioHandler:
 
         # Extract Broadcast value if necessary
         if hasattr(analyzer, 'value'):
-            analyzer = analyzer.value
+            self.analyzer = analyzer.value
         else:
             self.analyzer = analyzer  # or PresidioMultilingualAnalyzer().analyzer
-            
+
         self.anonymizer = anonymizer or AnonymizerEngine()
         self.operators = operators or {
             entity: OperatorConfig("replace", {"new_value": f"<{entity}>"})
