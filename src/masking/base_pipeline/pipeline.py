@@ -81,7 +81,11 @@ class MaskDataFramePipelineBase(ABC):
     def clear_concordance_tables(self) -> None:
         """Clear the concordance tables."""
         for pipeline in self.col_pipelines:
-            pipeline.clear_concordance_table()
+            if isinstance(pipeline, list):
+                for p in pipeline:
+                    p.clear_concordance_table()
+            else:
+                pipeline.clear_concordance_table()
 
     @staticmethod
     def _get_data_columns_order(data: AnyDataFrame) -> dict:
