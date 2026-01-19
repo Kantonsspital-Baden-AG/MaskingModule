@@ -57,11 +57,7 @@ class PresidioHandler:
         if pii_entities:
             self._PII_ENTITIES = pii_entities
 
-        # Extract Broadcast value if necessary
-        if hasattr(analyzer, 'value'):
-            self.analyzer = analyzer.value
-        else:
-            self.analyzer = analyzer  # or PresidioMultilingualAnalyzer().analyzer
+        self.analyzer = analyzer  # or PresidioMultilingualAnalyzer().analyzer
 
         self.anonymizer = anonymizer or AnonymizerEngine()
         self.operators = operators or {
