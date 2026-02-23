@@ -137,8 +137,6 @@ class TokenMatchHandler:
             PatternRecognizer: The pattern recognizer
 
         """
-        _MIN_TOKEN_LENGTH: ClassVar[int] = 4  # ignore "di", "de", "von"
-
         patterns = []
         for v in pii_values:
             if not v:
@@ -156,7 +154,7 @@ class TokenMatchHandler:
 
             # Tokens
             for token in v.split():
-                if len(token) < self._MIN_TOKEN_LENGTH:
+                if len(token) < 4:
                     continue  # "di", "de", "von" etc. überspringen
                 escaped_token = re.escape(token)
                 patterns.append(
