@@ -2,5 +2,5 @@ from masking.base_operations.operation_token_match import TokenMatchOperationBas
 from masking.mask.operations.operation import PandasOperation
 
 
-class ClassTokenMatch(PandasOperation, TokenMatchOperationBase):
+class TokenMatchOperation(PandasOperation, TokenMatchOperationBase):
     """Token matching operation."""
