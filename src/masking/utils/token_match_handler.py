@@ -161,7 +161,7 @@ class TokenMatchHandler:
                     Pattern(
                         self._PII_ENTITIES, 
                         regex=self._PATTERN_TEMPLATE.format(value=escaped_token), 
-                        score=0.5
+                        score=0.8
                     ) 
                 )
 
