@@ -6,7 +6,7 @@ from dateparser import parse
 from presidio_analyzer import Pattern, PatternRecognizer
 
 
-class TokenMatchHandler:
+class WordMatchHandler:
     # Entities to be detected as PII
     _PII_ENTITIES: ClassVar[set[str]] = {"PATIENT_DATA"}
 
@@ -152,15 +152,16 @@ class TokenMatchHandler:
                 )
             )
 
-            # Tokens
-            for token in v.split():
-                if len(token) < 4:
+            # Words
+            # TODO: hyphen, comma as hyperparameters
+            for word in re.split(r'[\s,\-]+', v):
+                word = word.strip()
+                if len(word) < 4: #TODO: change to hyperparameter
                     continue  # "di", "de", "von" etc. überspringen
-                escaped_token = re.escape(token)
                 patterns.append(
                     Pattern(
                         self._PII_ENTITIES, 
-                        regex=self._PATTERN_TEMPLATE.format(value=escaped_token), 
+                        regex=self._PATTERN_TEMPLATE.format(value=re.escape(word)), 
                         score=0.8
                     ) 
                 )

@@ -1,10 +1,10 @@
 from masking.base_operations.operation import Operation
 from masking.utils.presidio_handler import PresidioHandler
-from masking.utils.token_match_handler import TokenMatchHandler
+from masking.utils.word_match_handler import WordMatchHandler
 
 
-class TokenMatchOperationBase(Operation, TokenMatchHandler, PresidioHandler):
-    """Token Match Operation Base Class."""
+class WordMatchOperationBase(Operation, WordMatchHandler, PresidioHandler):
+    """Word Match Operation Base Class."""
 
     @property
     def serving_columns(self) -> list[str]:
