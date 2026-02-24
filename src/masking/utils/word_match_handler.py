@@ -26,18 +26,28 @@ class WordMatchHandler:
                 )
                 """
 
-    def __init__(self, pii_cols: list[str] | None = None, **kwargs: dict) -> None:
+    def __init__(self, 
+                 pii_cols: list[str] | None = None, 
+                 min_word_length: int | None = None,
+                 split_characters: str | None = None, 
+                 **kwargs: dict) -> None:
         """Initialize the Presidio Handler.
 
         Args:
         ----
             pii_cols (list[str]): list of PII columns
+            min_word_length (int): minimum length of a word to be considered for matching
+            split_characters (str): regex pattern for characters to split words (default: r"[\s,\-]+")
+                                    Default: split on whitespace, comma, and hyphen
             **kwargs: The keyword arguments
 
         """
         super().__init__(**kwargs)
 
         self.pii_cols = pii_cols or []
+        self.min_word_length = min_word_length or 4
+        self.split_characters = split_characters or r"[\s,\-]+"
+
 
     def _get_pii_values(self, line: dict) -> list[str]:
         """Get the PII values from a line.
@@ -154,10 +164,10 @@ class WordMatchHandler:
 
             # Words
             # TODO: hyphen, comma as hyperparameters
-            for word in re.split(r'[\s,\-]+', v):
+            for word in re.split(self.split_characters, v):
                 word = word.strip()
-                if len(word) < 4: #TODO: change to hyperparameter
-                    continue  # "di", "de", "von" etc. überspringen
+                if len(word) < self.min_word_length:
+                    continue
                 patterns.append(
                     Pattern(
                         self._PII_ENTITIES, 
