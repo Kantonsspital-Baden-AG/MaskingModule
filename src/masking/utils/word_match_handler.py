@@ -1,4 +1,5 @@
 import re
+import unicodedata
 
 from presidio_analyzer import Pattern, PatternRecognizer
 
@@ -6,6 +7,20 @@ from .string_match_handler import StringMatchHandler
 
 
 class WordMatchHandler(StringMatchHandler):
+
+    # Umlaut mappings (both directions)
+    _DIGRAPH_TO_UMLAUT = {
+        "ue": "ü", "Ue": "Ü",
+        "oe": "ö", "Oe": "Ö",
+        "ae": "ä", "Ae": "Ä",
+    }
+
+    _UMLAUT_TO_DIGRAPH = {
+        "ü": "ue", "Ü": "Ue",
+        "ö": "oe", "Ö": "Oe",
+        "ä": "ae", "Ä": "Ae",
+    }
+
     def __init__(
         self,
         pii_cols: list[str] | None = None,
@@ -30,56 +45,83 @@ class WordMatchHandler(StringMatchHandler):
         self.min_word_length = min_word_length or 4
         self.split_characters = split_characters or r"[\s,\-]+"
 
-    def _get_pattern_recognizer(self, pii_values: list) -> PatternRecognizer | None:
-        """Get the pattern recognizer.
+    def _get_umlaut_variants(self, text: str) -> list[str]:
+        """Get all umlaut variants of a text.
+
+        Returns both the digraph→umlaut and umlaut→digraph versions.
 
         Args:
         ----
-            pii_values (list): The PII values
+            text (str): The text to convert
 
         Returns:
         -------
-            PatternRecognizer: The pattern recognizer
+            list[str]: List of unique variants (excluding the original)
 
         """
-        patterns = []
+        # digraph → umlaut
+        to_umlaut = text
+        for source, target in self._DIGRAPH_TO_UMLAUT.items():
+            to_umlaut = to_umlaut.replace(source, target)
+
+        # umlaut → digraph
+        to_digraph = text
+        for source, target in self._UMLAUT_TO_DIGRAPH.items():
+            to_digraph = to_digraph.replace(source, target)
+
+        return [v for v in {to_umlaut, to_digraph} if v != text]
+    
+
+    def _get_ascii_variant(self, text: str) -> str | None:
+        """Remove diacritics/accents from text.
+        
+        E.g. 'Karaarduç' → 'Karaarduc', 'René' → 'Rene'
+        """
+        normalized = unicodedata.normalize('NFD', text)
+        ascii_variant = ''.join(c for c in normalized if unicodedata.category(c) != 'Mn')
+        return ascii_variant if ascii_variant != text else None
+
+    def _get_pattern_recognizer(self, pii_values: list) -> PatternRecognizer | None:
+        # Expand PII values with umlaut variants
+        expanded = []
         for v in pii_values:
+            expanded.append(v)
+            expanded.extend(self._get_umlaut_variants(v))
+            ascii_variant = self._get_ascii_variant(v)
+            if ascii_variant:
+                expanded.append(ascii_variant)
+
+        regex_set = set()
+        for v in expanded:
             if not v:
                 continue
 
-            # Create patterns for string values
-            patterns.append(
-                # Create a pattern for the PII entity
-                Pattern(
-                    self._PII_ENTITIES,
-                    regex=self._PATTERN_TEMPLATE.format(value=re.escape(v)),
-                    score=0.8,
-                )
-            )
+            # Full value
+            regex_set.add(self._PATTERN_TEMPLATE.format(value=re.escape(v)))
 
             # Words
             for word in re.split(self.split_characters, v):
-                word = word.strip()  # noqa: PLW2901
+                word = word.strip() # noqa: PLW2901
                 if len(word) < self.min_word_length:
                     continue
-                patterns.append(
-                    Pattern(
-                        self._PII_ENTITIES,
-                        regex=self._PATTERN_TEMPLATE.format(value=re.escape(word)),
-                        score=0.8,
-                    )
-                )
+                regex_set.add(self._PATTERN_TEMPLATE.format(value=re.escape(word)))
 
-            # Check if the value is a date and create patterns for it
+            # Dates
             try:
                 ps = self._get_pattern_date(v)
                 if ps:
-                    patterns.extend(ps)
-            except Exception:  # noqa: S110
+                    for p in ps:
+                        regex_set.add(p.regex)
+            except Exception:
                 pass
 
-        if not patterns:
+        if not regex_set:
             return None
+
+        patterns = [
+            Pattern(self._PII_ENTITIES, regex=r, score=0.8)
+            for r in regex_set
+        ]
 
         return PatternRecognizer(
             supported_entity=next(iter(self._PII_ENTITIES)), patterns=patterns
