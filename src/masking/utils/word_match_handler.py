@@ -33,7 +33,7 @@ class WordMatchHandler(StringMatchHandler):
         Args:
         ----
             pii_cols (list[str]): list of PII columns
-            min_word_length (int): minimum length of a word to be considered for matching
+            min_word_length (int): minimum length of a word to be considered for matching, default is 3
             split_characters (str): regex pattern for characters to split words (default: r"[\s,\-]+")
                                     Default: split on whitespace, comma, and hyphen
             **kwargs: The keyword arguments
@@ -42,7 +42,7 @@ class WordMatchHandler(StringMatchHandler):
         super().__init__(**kwargs)
 
         self.pii_cols = pii_cols or []
-        self.min_word_length = min_word_length or 4
+        self.min_word_length = min_word_length or 3
         self.split_characters = split_characters or r"[\s,\-]+"
 
     def _get_umlaut_variants(self, text: str) -> list[str]:
