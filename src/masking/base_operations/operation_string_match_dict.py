@@ -55,6 +55,8 @@ class StringMatchDictOperationBase(
         if analyzer_results:
             for leaf in leaf_to_mask:
                 value = self._get_leaf(line, leaf)
+                if value is None:
+                    continue
                 masked = self.anonymizer.anonymize(
                     value,
                     analyzer_results=analyzer_results.get(value, []),
